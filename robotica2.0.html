@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script src="script.js"></script>
+  <title></title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap">
+</head>
+<body>
+  <button id="toggleButton" onclick="toggleMenu()">
+    <div id="myElement"></div>
+    <div class="line"></div>
+    <div class="line"></div>
+    <div class="line"></div>
+  </button>
+
+    <nav id="navMenu">
+    <button id="closeButton" onclick="toggleMenu()">&times;</button>
+    <ul class="menu">
+      <li><a href="#" onclick="showSection('inicio')">Inicio</a></li>
+    <li><a href="#" onclick="showSection('servicios')">Servicios</a></li>
+    <li><a href="#" onclick="showSection('estrategia')">Estrategia de Mercado</a></li>
+    <li><a href="#" onclick="showSection('contacto')">Contacto</a></li>
+    </ul>
+  </nav>
+
+<div class="logo" style="position: absolute; top: 10px; right: 10px;">
+    <img src="https://media.discordapp.net/attachments/714821301486747668/1119632272237264976/Mi_proyecto.png?width=449&height=449" alt="Logo de EcoSolutions" style="width: 200px; height: 200px;">
+</div>
+
+  <section id="inicio">
+
+    <h1>EcoSolutions</h1>
+
+    <h4>Bienvenido a EcoSolutions</h4>
+    <p>Somos líderes en soluciones ecológicas y amigables con el ambiente! En EcoSolutions, nos apasiona el cuidado del medio ambiente y nos dedicamos a ayudar a las personas y las empresas a ahorrar energía y reducir su huella de carbono. Nuestra visión es crear un mundo sostenible donde las soluciones ecológicas sean accesibles para todos y se conviertan en la forma estándar de hacer negocios.</p>
+    <br>
+    <p>En EcoSolutions, ofrecemos una amplia gama de servicios y productos innovadores diseñados para promover la eficiencia energética y la conservación de recursos. Trabajamos estrechamente con nuestros clientes para desarrollar soluciones personalizadas que se adapten a sus necesidades específicas. Ya sea a través de la instalación de sistemas de energía renovable, la implementación de tecnología inteligente para la gestión de la energía o la asesoría en prácticas sostenibles, estamos comprometidos a brindar resultados tangibles y duraderos.</p>
+    <br>
+    <p>Nuestra misión es fomentar la adopción masiva de soluciones ecológicas al proporcionar servicios de alta calidad, educación y conciencia ambiental. Nos esforzamos por ser líderes en la industria, ofreciendo soluciones técnicas avanzadas respaldadas por nuestro equipo altamente capacitado y experimentado. Trabajamos en estrecha colaboración con expertos en energía y medio ambiente para mantenernos a la vanguardia de las últimas innovaciones y mejores prácticas.</p>
+    <br>
+    <p>Con años de experiencia en el campo de la eficiencia energética y la sostenibilidad, hemos establecido una sólida reputación por nuestro compromiso con la calidad y la excelencia. Hemos trabajado con una amplia gama de clientes, desde hogares y pequeñas empresas hasta grandes corporaciones, ayudándoles a reducir sus costos de energía y su impacto ambiental. Nuestro enfoque centrado en el cliente nos ha permitido construir relaciones duraderas basadas en la confianza y la satisfacción del cliente.</p>
+    <br>
+    <p>Mirando hacia el futuro, EcoSolutions se esforzará por seguir siendo un líder en la industria de soluciones ecológicas. Continuaremos invirtiendo en investigación y desarrollo para ofrecer tecnologías aún más avanzadas y eficientes. También expandiremos nuestra presencia global para llegar a más personas y comunidades, y promoveremos la educación ambiental en todos los niveles.</p>
+    <br>
+    <p>En EcoSolutions, estamos comprometidos a marcar la diferencia y construir un futuro sostenible para las generaciones venideras. Únete a nosotros en nuestro viaje hacia un mundo más verde y juntos haremos una diferencia duradera.</p>
+  <br>
+  <br>
+  </section>
+
+  <section id="servicios">
+    <h2>Servicios</h2>
+    <p>Explora los diferentes servicios que ofrecemos:</p>
+    <br>
+    <ul>
+      <li>
+        <h3>Auditoría Energética</h3>
+        <p>Nuestro servicio de auditoría energética analiza detalladamente el consumo de energía de tu hogar o negocio para identificar oportunidades de ahorro. Te proporcionaremos un informe completo con recomendaciones personalizadas para mejorar la eficiencia energética y reducir tus costos. ¡Comienza a ahorrar energía hoy mismo!</p>
+        <img src="https://www.tinsa.es/wp-content/uploads/2015/10/auditor%C3%ADa-energetica-1024x683@2x.jpg" alt="Auditoría Energética" style="width: 600px; height: 400px;">
+      </li>
+      <li>
+        <h3>Instalación de Paneles Solares</h3>
+        <p>Con nuestra experiencia en energía renovable, ofrecemos soluciones de instalación de paneles solares para hogares y empresas. Aprovecha la energía solar y reduce tu dependencia de fuentes de energía no renovables. Nuestro equipo profesional se encargará de todo el proceso, desde el diseño hasta la instalación y el mantenimiento, para garantizar un rendimiento óptimo a largo plazo.</p>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/b/b8/Photovoltaik_Dachanlage_Hannover_-_Schwarze_Heide_-_1_MW.jpg" alt="Instalación de Paneles Solares" style="width: 600px; height: 400px;">
+      </li>
+      <li>
+        <h3>Gestión de Residuos y Reciclaje</h3>
+        <p>Descripción del servicio de gestión de residuos y reciclaje.</p>
+        <img src="https://cdn0.ecologiaverde.com/es/posts/7/8/7/definicion_de_gestion_de_residuos_y_sus_fases_2787_0_600.jpg" alt="Gestión de Residuos y Reciclaje" style="width: 600px; height: 400px;">
+      </li>
+      <li>
+        <h3>Asesoramiento en Eficiencia Energética</h3>
+        <p> Nuestro equipo de expertos te brindará asesoramiento personalizado sobre cómo optimizar el consumo de energía en tu hogar o negocio. Identificaremos áreas de mejora y te proporcionaremos recomendaciones prácticas para reducir tu huella de carbono y ahorrar dinero en tus facturas de energía.</p>
+        <img src="https://estaticosgn-cdn.deia.eus/clip/324c5b40-91cf-40be-9611-4f061d3cfce7_16-9-discover-aspect-ratio_default_0.jpg" alt="Asesoramiento en Eficiencia Energética" style="width: 600px; height: 400px;">
+      </li>
+      <li>
+        <h3>Sistemas de Iluminación LED</h3>
+        <p>Ofrecemos soluciones de iluminación eficientes con tecnología LED. Los sistemas de iluminación LED consumen menos energía y tienen una vida útil más larga que las bombillas tradicionales. Te ayudaremos a seleccionar las opciones de iluminación adecuadas para tu espacio, mejorando la eficiencia y el confort visual.</p>
+        <img src="https://fhsolarled.com/wp-content/uploads/2020/08/sistemas-de-iluminaci%C3%B3n-led.jpg" alt="Sistemas de Iluminación LED" style="width: 600px; height: 400px;">
+      </li>
+      <li>
+        <h3>Instalación de Sistemas de Agua Eficiente</h3>
+        <p>Ayudamos a optimizar el consumo de agua a través de la instalación de sistemas de agua eficiente. Desde la recolección de agua de lluvia hasta la implementación de sistemas de riego inteligentes, te ayudaremos a conservar y utilizar el agua de manera responsable, contribuyendo a la preservación de este recurso vital.</p>
+        <img src="https://twenergy.com/wp-content/uploads/2019/10/Sistemas-de-riego-eficientes-1280x720.jpg" alt="Instalación de Sistemas de Agua Eficiente" style="width: 600px; height: 400px;">
+      </li>
+      <li>
+        <h3>Diseño de Espacios Sostenibles</h3>
+        <p>Nuestro equipo de diseño desarrollará soluciones creativas para crear espacios sostenibles y amigables con el medio ambiente. Utilizaremos materiales ecológicos, diseño bioclimático y tecnologías inteligentes para maximizar la eficiencia energética y el confort ambiental de tu hogar o lugar de trabajo.</p>
+        <img src="https://catedratelefonica.uoc.edu/wp-content/uploads/2017/03/ikea-space10-the-growroom-flat-pack-spherical-garden-designboom-02_.jpeg" alt="Diseño de Espacios Sostenibles" style="width: 600px; height: 400px;" >
+      </li>
+    </ul>
+</section>
+
+  
+<section id="estrategia">
+    <h2>Estrategia de Mercado</h2>
+    <p>Nuestra estrategia se basa en los siguientes elementos clave:</p>
+    <br>
+    <p>1.- Conocer a nuestro mercado objetivo: Hemos realizado un análisis exhaustivo para comprender las necesidades y preferencias de nuestro público objetivo. Esto nos permite adaptar nuestros productos y servicios a sus demandas, asegurando que estamos brindando lo que realmente necesitan.</p>
+<br>
+<p>2.- Destacar entre la competencia: Para sobresalir en un mercado competitivo, nos hemos enfocado en desarrollar una propuesta de valor única. Identificamos qué nos hace diferentes y comunicamos claramente esos aspectos a nuestro mercado objetivo. Queremos que nuestros clientes vean el valor agregado que ofrecemos en comparación con la competencia.</p>
+<br>
+<p>3.- Construir relaciones sólidas con los clientes: Valoramos la lealtad y la satisfacción del cliente. Nos esforzamos por brindar un excelente servicio al cliente, mantener una comunicación constante y responder rápidamente a sus necesidades. Además, utilizamos la retroalimentación de los clientes para mejorar continuamente nuestra oferta y fortalecer las relaciones con ellos.</p>
+<br>
+<p>4.- Ampliar nuestra oferta: Para generar más ingresos, buscamos oportunidades para ampliar nuestra cartera de productos o servicios. Esto puede implicar el desarrollo de nuevas líneas de productos, mejoras en los existentes o la exploración de nuevos segmentos de mercado. Queremos ofrecer opciones atractivas y captar la atención de más clientes.</p>
+<br>
+<p>5.- Estrategias de marketing efectivas: Implementamos estrategias de marketing que nos ayudan a aumentar la visibilidad de nuestra marca y atraer más clientes potenciales. Utilizamos tácticas digitales como publicidad en línea, SEO y redes sociales, así como tácticas tradicionales como publicidad impresa y participación en eventos. Adaptamos nuestras estrategias según nuestro mercado objetivo y medimos los resultados para mejorar continuamente.</p>
+<br>
+<p>6.- Observar a la competencia y adaptarnos: Estamos atentos a lo que hacen nuestros competidores para identificar oportunidades y desafíos. Queremos mantenernos ágiles y adaptarnos rápidamente a los cambios en el mercado y las preferencias del consumidor. Estamos dispuestos a realizar ajustes en nuestra oferta para seguir siendo relevantes.</p>
+<br>
+<p>7.- Fomentar la innovación y la mejora continua: Promovemos una cultura de innovación en toda la organización. Animamos a nuestro equipo a ser creativo y a buscar constantemente formas de agregar valor a nuestros productos, servicios y procesos internos. Valoramos la retroalimentación de los clientes y nos esforzamos por aprender y mejorar constantemente.</p>
+<br>
+<p>Con esta estrategia, buscamos mantenernos competitivos, generar un crecimiento constante de nuestros ingresos mensuales y satisfacer las necesidades cambiantes de nuestros clientes.</p>
+
+
+</section>
+
+  <section id="contacto">
+    <h2>Contacto</h2>
+    <p>Nuestra Información De Contacto:</p>
+    <p>QUITO</p>
+        <p>Avenida 6 de Diciembre y Avenida de los Shyris.</p>                
+        <p>Edificio Paskal, Piso #24.</p>                
+        <p>Teléfono: +593 099 392 3741.</p>
+        <p>Horario de Atención Lunes a Sábados, de 8:00 A.M hasta las 19:00 P.M</p>
+        <br>
+        <h2>Obten más información:</h2>
+    <form>
+      <label for="nombre">Nombre y Apellido:</label>
+      <input type="text" id="nombre" name="nombre" required>
+
+      <label for="edad">Edad:</label>
+      <input type="number" id="edad" name="edad" min="0" max="100" required>
+
+      <label for="contacto">Correo Electrónico o Teléfono:</label>
+      <input type="text" id="contacto" name="contacto" required>
+
+      <input type="submit" value="Enviar">
+    </form>
+  </section>
+
+  <script src="script.js"></script>
+  <footer>
+    <p>ㅤㅤㅤ&copy; 2023 Empresa de Postres. Todos los derechos reservados.</p>
+  </footer>
+</body>
+</html>
